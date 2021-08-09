@@ -14,7 +14,7 @@ object Caesar extends App {
   val ct = cipher(EN, s, 2, alphabet)
   val pt = cipher(DE, ct, 2, alphabet)
 
-  println("Cipher Text : ", ct)
-  println("Plain Text : ", pt)
+  println("Cipher Text : " + ct)
+  println("Plain Text : " + pt)
 
 }
